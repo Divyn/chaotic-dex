@@ -570,6 +570,26 @@ export default function Home() {
       <div className="mt-4 text-center text-xs text-slate-800">
         this is not financial advice. this is barely mathematics. past chaos does not predict future chaos.
       </div>
+
+      <hr className="mt-6 mb-4 border-slate-800" />
+
+      <div className="text-center text-xs text-slate-500 leading-relaxed space-y-2">
+        <p>
+          CHAOS/USD is a satirical simulation and does not involve real money, real assets, or real trading.
+          No transactions occur on any blockchain or financial network. Nothing displayed on this site constitutes
+          financial, legal, or investment advice.
+        </p>
+        <p>
+          This site is provided "as is" for entertainment purposes only, without warranty of any kind.
+          The authors are not responsible for any losses, damages, or existential crises arising from use of this site.
+          Past chaos does not predict future chaos. All prices are mathematically generated and have no connection
+          to any real-world asset or market.
+        </p>
+        <p>
+          This site is not affiliated with, endorsed by, or associated with any financial institution, exchange,
+          or regulatory body. If you believe this is real, please consult a professional — and possibly a mathematician.
+        </p>
+      </div>
     </main>
   )
 }
