@@ -3,7 +3,19 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'CHAOS/USD — Logistic Map Market',
-  description: 'A market maker powered by the chaos of mathematics',
+  description:
+    'A market maker powered by the chaos of mathematics. Price driven by the logistic map — deterministic chaos where your trades just make it angrier.',
+  openGraph: {
+    title: 'CHAOS/USD — Logistic Map Market',
+    description: 'A market maker powered by the chaos of mathematics.',
+    siteName: 'Chaotic DEX',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'CHAOS/USD — Logistic Map Market',
+    description: 'A market maker powered by the chaos of mathematics.',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
